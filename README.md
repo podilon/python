@@ -1,8 +1,11 @@
-# python
-aplicações em python
-###CALCULADORA DE EQUAÇÕES DE 1 E 2 GRAU.###
+# CALCULADORA DE EQUAÇÕES DE 1 E 2 GRAU
+
+A aplicação foi escrita em python.
 
 
+# Aplicação
+
+```sh
 ----------------------------------------------------------------------
 1 - equação do 1º Grau
 2 - equação do 2º Grau
@@ -42,3 +45,6 @@ Delta:  -87
 Raiz:  9.32
 x1:  1.54
 x2:  -0.79
+```
+
+ 
