@@ -47,12 +47,12 @@ while On==1:
         if c>=0:
             print('\nEquação: ',b,'x+',c,' = 0')
             x1 = -1*(c/b)
-            print('X: ',x1)
+            print('X: ',"{:.2f}".format( x1,2))
             
         else:
             print('\nEquação: ',b,'x',c,' = 0')
             x1 = abs(c)/b
-            print('X: ',x1)
+            print('X: ',"{:.2f}".format( x1,2))
             
         On=1
     elif entrada==2:
@@ -69,9 +69,9 @@ while On==1:
         x1 = calc_x1(a,b,raiz)
         x2 = calc_x2(a,b,raiz)
         print('Delta: ',delta)
-        print('Raiz: ',raiz)
-        print('x1: ',x1)
-        print('x2: ',x2)
+        print('Raiz: ',"{:.2f}".format( raiz,2))
+        print('x1: ',"{:.2f}".format( x1,2))
+        print('x2: ',"{:.2f}".format( x2,2))
         
         On=1
     elif entrada==3:
